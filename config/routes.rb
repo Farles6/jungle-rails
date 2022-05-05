@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get 'static_pages/about'
   root to: 'products#index'
 
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
+
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
