@@ -65,7 +65,7 @@ They rely on animal pollination to reproduce. Once pollinated, they grow fairly 
   quantity: 18,
   price: 24.99
 })
-
+ 
 cat1.products.create!({
   name:  'Lion Grapevine',
   description: "The Lion Grapevine is an uncommon, modest plant and can be found only in some humid regions. It blooms once a year, for 4 months.
