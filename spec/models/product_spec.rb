@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+ 
 RSpec.describe Product, type: :model do
   describe 'Validations' do
   before(:each) do
@@ -10,7 +10,6 @@ RSpec.describe Product, type: :model do
     @product.price_cents = 111
     @product.quantity = 1
     @product.category = @category
-    # @product.category_id = 1
   end
 context 'all fields have values' do
   it 'returns true' do
