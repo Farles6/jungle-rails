@@ -17,5 +17,4 @@ describe('rails jungle, homepage test', () => {
     cy.get('#password').click({force: true}).type('123456789')
     cy.get('[type="submit"]').click({force: true})
   });
- 
 });
