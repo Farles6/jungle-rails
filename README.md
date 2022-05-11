@@ -11,7 +11,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 5. Create .env file based on .env.example
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
-8. Run `bin/rails s -b 0.0.0.0` to start the server
+8. Run `bin/rails s (add only if on vm -b 0.0.0.0)` to start the server
 
 ## Database
 
@@ -29,3 +29,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+![navbar](docs/navbar.png)
+![homepage](docs/homepage-products.png)
+![product page](docs/product-page.png)
+![cart](docs/cart.png)
+![order page](docs/orderpage.png)
+![admin page](docs/admin.png)
